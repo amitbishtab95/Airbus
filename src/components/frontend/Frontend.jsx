@@ -8,9 +8,9 @@ const Frontend = () => {
     const [Tech, setTech] = useState();
     const [Db, setDb] = useState();
     const [Backtech, setBacktech] = useState("");
- 
+
     const openPlate = (tech, backtech, db) => {
-       
+
         if (tech === 'React' && backtech === '.net' && db === 'Sql') {
             window.open(plates.RNS)
         }
@@ -21,6 +21,9 @@ const Frontend = () => {
 
         if (tech === 'Html' && backtech === 'Django' && db === 'Sql') {
             window.open(plates.HJS)
+        }
+        if ((tech === 'React' && backtech === 'Django' && db === 'Sql') || (tech === 'React' && backtech === 'Django' && db === 'MongoDB') || (tech === 'React' && backtech === 'php' && db === 'Sql') || (tech === 'Angular' && backtech === 'Django' && db === 'Sql') || (tech === 'Angular' && backtech === 'Django' && db === 'Sql')) {
+            alert("Boiler Plates for current Tech Stack not availabel")
         }
     };
 
