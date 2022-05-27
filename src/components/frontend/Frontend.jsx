@@ -8,10 +8,9 @@ const Frontend = () => {
     const [Tech, setTech] = useState();
     const [Db, setDb] = useState();
     const [Backtech, setBacktech] = useState("");
-    // console.log(`${Tech}`);
-    // console.log(`${Backtech}`);
+ 
     const openPlate = (tech, backtech, db) => {
-        // console.log("bbbbb");
+       
         if (tech === 'React' && backtech === '.net' && db === 'Sql') {
             window.open(plates.RNS)
         }
