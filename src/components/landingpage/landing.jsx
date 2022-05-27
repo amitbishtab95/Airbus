@@ -6,7 +6,9 @@ import Footer from '../footer/footer'
 const landing = () => {
     return (
         <div className='container landing'>
+            <Header></Header>
             <Frontend></Frontend>
+            <Footer></Footer>
         </div>
     )
 }
